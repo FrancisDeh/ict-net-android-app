@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#FF9100</color>
+    <color name="launcher_bottom_text_a_color">#000</color>
+    <color name="launcher_top_text_color">#ff5722</color>
+    <color name="colorPrimaryDarkLauncher">#fff</color>
+    <color name="list_transparent_background">#bdbdbd</color>
+    <color name="background_color">#bdbdbd</color>
+    <color name="control_btn">#f44336</color>
+</resources>

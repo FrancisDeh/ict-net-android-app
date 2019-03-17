@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/term_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/term_list_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WWW"
+                android:textStyle="bold"
+                android:background="@color/list_transparent_background"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="18sp"
+                android:padding="5dp"
+               />
+
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/term_list_definition"
+                android:layout_width="wrap_content"
+                android:text="World Wide Web"
+                android:textColor="@color/launcher_bottom_text_a_color"
+                android:textSize="16sp"
+                android:layout_height="match_parent"/>
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/course_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:text="ECS302: Designing Instructional Materials with Computers"
+            android:textColor="@color/launcher_bottom_text_a_color"/>
+        <TextView
+            android:id="@+id/lecturer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:text="Lecturer Name: Bernard Wiafe Akaadom (PhD)"
+            android:textColor="@color/launcher_bottom_text_a_color"/>
+        <TextView
+            android:id="@+id/index_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:text="Index Number: ED/CSC/15/0025"
+            android:textColor="@color/launcher_bottom_text_a_color"/>
+        <TextView
+            android:id="@+id/developer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:text="Name: Francis Deh"
+            android:textColor="@color/launcher_bottom_text_a_color"/>
+        <TextView
+            android:id="@+id/license_text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_source_software_license_n_android_vidsta"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:textColor="@color/launcher_bottom_text_a_color"
+            android:gravity="center"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            >
+            <TextView
+                android:id="@+id/license_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/android_pdf_license"
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:padding="15dp"/>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
